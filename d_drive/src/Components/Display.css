@@ -1,0 +1,64 @@
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 350px;
+  
+    margin-left:  90px;
+  }
+  
+  .image-list img {
+    width: 300px;
+    height: 350px;
+  }
+  .center {
+    margin: 40px;
+  }
+  
+  .button {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #009ffd, #2a2a72);
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  .button:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+ 
+  input[type="text"]:focus {
+    background-color: lightblue;
+  }
+
+  .getdataBtn:hover{
+    cursor: pointer;
+  }
+ 
+  .Backbtn{
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-family: 'Poppins';
+    width: 216px;
+    height: 50px;
+    left: 680px;
+    top: 476px;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .Display-Container{
+    left: 0; 
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.964);
+  }

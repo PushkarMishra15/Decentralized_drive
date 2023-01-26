@@ -1,0 +1,142 @@
+
+
+.modalBackground {
+   
+    left: 0; 
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(72, 65, 113, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 200px;
+    border-radius: 12px;
+    color: rgba(13, 12, 29, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    background-color: rgba(166, 156, 172, 1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer {
+    display: inline-block;
+    text-align: center;
+  }
+  .title {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 1px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 108px;
+    border: none;
+    background-color: #0D0C1D;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 39px;
+    right: 609px;
+    top: 470px;
+    position: absolute;
+  }
+  
+  #cancelBtn {
+    width: 108px;
+    height: 37px;
+    left: 610px;
+    top: 470px;
+    position: absolute;
+    background-color: rgba(166, 156, 172, 1);
+    color: rgba(13, 12, 29, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 2px solid rgba(13, 12, 29, 1);
+  }
+  .address {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 484px;
+    height: 32px;
+    border-radius: 4px;
+    position: absolute;
+    left: 610px;
+    top: 360px;
+    border: 2px solid rgba(13, 12, 29, 1);
+    background-color: rgba(166, 156, 172, 1);
+  
+   }
+
+  
+  input[type="text"]:focus {
+    background-color: lightblue;
+  }
+ 
+ ::placeholder {
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    font-size: 16px;
+    color: rgb(205, 226, 43);
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  #selectNumber{
+    position: absolute;
+    left: 610px;
+    top: 412px;
+    border: 2px solid rgba(13, 12, 29, 1);
+    background-color: rgba(166, 156, 172, 1);
+    height: 34px;
+    width: 384px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 17px;
+  }
+  .access{
+    position: absolute;
+    left: 900px;
+  }
+  
